@@ -1,0 +1,137 @@
+Project: Modern Web Development Starter Kit Creator
+Objective
+Create a standardized, up-to-date starter kit generator for web development projects that follows current best practices, uses the latest stable versions of all technologies, and includes proper Cursor editor integration.
+MCP Tools Utilization
+For effective implementation of this project, utilize these specific MCP tools:
+
+Sequential Thinking MCP
+
+Break down complex tasks into logical steps
+Maintain context throughout the implementation process
+Evaluate and revise approaches as needed
+Use for planning directory structures and implementation sequence
+
+
+Web Search MCPs
+
+brave_web_search - For general research on best practices and configurations
+tavily-search - For in-depth technical documentation and examples
+tavily-extract - To analyze specific documentation pages or GitHub repositories
+Always search for up-to-date information before implementing any component
+
+
+File System MCPs
+
+Use directory creation tools to establish proper folder structure
+Create files with appropriate permissions and encoding
+Implement proper nesting according to framework best practices
+Generate configuration files with correct syntax and formatting
+
+
+Memory/Knowledge Graph MCP
+
+Search the knowledge graph for previous successful implementations
+Retrieve best practices from past similar projects
+Learn from previous iterations to improve quality
+Store new learnings for future reference
+
+
+Code Execution MCP
+
+Use REPL when appropriate to validate configurations
+Test snippets before including them in the template
+Verify dependency compatibility
+
+
+
+Process Flow
+1. Core Technology Selection
+
+Identify the primary framework/library (e.g., Next.js, React, Vue, Angular)
+Determine complementary technologies based on industry best practices (not user preferences)
+Select appropriate styling approach based on framework recommendations
+Include recommended testing, state management, and developer tools
+
+2. Research Phase
+
+Use brave_web_search or tavily-search to find:
+
+Latest stable versions of all selected technologies
+Current best practices for project structure
+Recommended configuration patterns
+Real-world production templates from reputable sources
+Framework-specific optimization techniques
+
+
+
+3. Cursor Rules Integration
+
+Research Cursor editor integration at cursor.directory
+Create a .cursor/rules directory with appropriate .mdc files for:
+
+Framework-specific coding standards
+Project structure guidelines
+Component patterns
+Best practices specific to the chosen technology stack
+
+
+Generate rules that enhance code consistency and developer experience
+Include comments explaining the purpose of each rule
+
+4. Best Practice Structure Implementation
+
+Create directory structure based on framework best practices (not user preferences)
+Set up appropriate nested directories following recommended patterns
+Implement conventional file naming strategies
+Structure for maintainability and scalability
+
+5. Configuration Generation
+
+Create package.json with proper dependencies and versions
+Generate appropriate config files (tsconfig.json, next.config.js, etc.)
+Set up ESLint, Prettier, and other tools with recommended rules
+Configure build process with optimal settings
+Add scripts for common development tasks
+
+6. Example Implementation
+
+Create sample components demonstrating best practices
+Include example pages/routes with proper patterns
+Provide utility functions that showcase recommended approaches
+Add comments explaining the rationale behind implementation choices
+
+7. Documentation
+
+Generate comprehensive README.md explaining:
+
+Project structure and organization principles
+Available commands and their purposes
+Best practices for extending the template
+How to use the Cursor integration features
+Links to official documentation
+
+
+
+8. Quality Assurance
+
+Validate configurations for syntax errors
+Verify compatibility between dependencies
+Check for security advisories on chosen packages
+Ensure Cursor rules are properly formatted
+
+Deliverables
+
+Complete file structure following best practices for the chosen framework
+.cursor/rules directory with properly formatted .mdc files
+Well-documented example code and configuration files
+Comprehensive README with getting started guide
+Optimized default configurations
+
+Implementation Instructions
+
+Use sequential thinking to break down each step
+Research each technology component before implementing
+Prioritize Cursor editor integration for improved developer experience
+Follow framework-specific conventions and standards
+Include helpful comments in configuration and example files
+Ensure the template is immediately usable with minimal setup
