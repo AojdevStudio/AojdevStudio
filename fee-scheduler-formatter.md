@@ -1,4 +1,5 @@
-Tab-Delimited Fee Schedule Conversion Project
+## Tab-Delimited Fee Schedule Conversion Project
+```markdown
 I need you to convert a dental fee schedule (or similar document) from its current format into a clean, tab-delimited text file with three columns: Code, Description, and Fee.
 What I'm uploading:
 
@@ -28,3 +29,4 @@ Ensure that special characters are properly handled
 Let me know if you encounter any issues with the source document that need my attention
 
 Please get started as soon as I upload the document. Thanks!
+```
