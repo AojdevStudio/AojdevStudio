@@ -73,12 +73,11 @@ alwaysApply: true
 
 ## Status Updates
 - After EACH change, provide:
-  ```
-  [COMPLETE] Description of change
+
+## [COMPLETE] Description of change
   - Coverage: XX% statements, XX% branches
   - Next: Description of next step
   - Updated: stories.md [x] Sub-task name
-  ```
 
 ## Change Classification
 - [MINOR] 1-5 lines
@@ -88,19 +87,14 @@ alwaysApply: true
 
 ## Tool Usage Reporting
 - After using Think MCP:
-  ```
   [THINK COMPLETE] - X thoughts recorded
   - Key insights: Brief summary
   - Action plan: Identified steps
-  ```
-
 - After web searches:
-  ```
   [WEB SEARCH COMPLETE] - Used <Tool>
   - Found: Key findings summary
   - Applied: How information was used
   - Source: Main reference URLs
-  ```
 
 ## Approval Requirements
 - MUST get approval for [MAJOR] changes
