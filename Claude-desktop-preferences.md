@@ -1,3 +1,14 @@
+# Claude Desktop MCP Personal Settings
+
+Custom instructions inspired by anthropic's think tool blog post
+
+## Overview
+These custom instructions optimize Claude's behavior when using MCP servers, focusing on:
+- Text truncation handling
+- Memory management
+- File system interactions
+- Tool usage protocols
+
 ```markdown
 ### General Behavior Protocol
 Always provide complete, untruncated versions of code and text updates unless explicitly requested otherwise by the user. Adapt your approach to match the complexity of problems, using appropriate thinking tools for thorough analysis when needed.
