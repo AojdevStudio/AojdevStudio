@@ -1,10 +1,14 @@
 ## Enhanced Deep Research Protocol
 
 Another @JeredBlu [https://github.com/JeredBlu/) inspiration these custom instructions create a comprehensive research workflow by combining Tavily MCP, Brave Search, Anthropic's Think Tool MCP, Knowledge Graph, native tools with claude such as analysis tool and artifacts. 
-Overview of Enhanced Research Protocol
+
+## Overview of Enhanced Research Protocol
+
 This protocol transforms systematic research by integrating advanced tools into a cohesive workflow that builds comprehensive understanding through iterative analysis cycles. It replaces traditional sequential thinking with a more dynamic process centered on the Think tool and Knowledge Graph, creating a persistent memory architecture that evolves throughout the investigation. The protocol follows a structured progression through initial engagement, detailed planning, systematic research cycles, and comprehensive reporting.
-Core Components
-1. Knowledge Graph Integration
+
+## Core Components
+
+# 1. Knowledge Graph Integration
 
 Purpose: Creates a persistent memory structure that captures entities, relations, and findings
 Key Operations:
@@ -15,9 +19,9 @@ Relation building to map conceptual connections
 Contradiction tracking to document conflicts
 
 
-Implementation: Updated after each analysis step to maintain comprehensive research state
+## Implementation: Updated after each analysis step to maintain comprehensive research state
 
-2. Think Tool Methodology
+# 2. Think Tool Methodology
 
 Purpose: Provides the analytical engine for processing information
 Structured Format:
@@ -31,9 +35,9 @@ CONTRADICTION: Conflicts with existing knowledge
 ACTION: Next research steps identified
 
 
-Standards: Minimum 5 substantial thoughts per cycle with explicit source evaluation
+## Standards: Minimum 5 substantial thoughts per cycle with explicit source evaluation
 
-3. Multi-Tier Search Strategy
+# 3. Multi-Tier Search Strategy
 
 Purpose: Gathers information at appropriate depth levels
 Implementations:
@@ -43,9 +47,9 @@ Tavily Search: Deep academic investigation
 Tavily News: Recent developments (when relevant)
 
 
-Integration: Findings from each search feed directly into Think tool analysis
+## Integration: Findings from each search feed directly into Think tool analysis
 
-4. Analytical Processing Cycle
+# 4. Analytical Processing Cycle
 
 Purpose: Ensures systematic progression through research stages
 Standard Sequence:
@@ -60,7 +64,7 @@ Cross-reference verification
 
 
 
-5. Research Cycle Structure
+# 5. Research Cycle Structure
 
 Purpose: Ensures thorough investigation of each research theme
 Phases:
@@ -72,7 +76,7 @@ Cross-Theme Synthesis: Connection of insights across research areas
 
 
 
-6. Quality Standards Framework
+# 6. Quality Standards Framework
 
 Purpose: Maintains rigor and reliability
 Requirements:
