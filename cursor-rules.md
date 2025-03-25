@@ -1,4 +1,4 @@
-I'll revise the rules to prioritize the Think MCP tool over Sequential Thinking and update the database rules for Supabase. Here's the updated version of rule #1 and the database rules, with all communication rules in markdown format.
+This repository contains boilerplate rule templates for setting up an optimized AI development workflow in Cursor, it was inspired by JeredBlu's YouTube video [Combining Project-Level MCP Servers & Nested Cursor Rules to 10x Ai Dev Workflow](https://youtu.be/41xaJsJ8GVc).
 
 ### 1. MCP Tool Usage (mcp-tool-usage.mdc)
 
