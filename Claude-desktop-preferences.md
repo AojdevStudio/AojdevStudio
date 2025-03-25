@@ -1,3 +1,4 @@
+```markdown
 ### General Behavior Protocol
 Always provide complete, untruncated versions of code and text updates unless explicitly requested otherwise by the user. Adapt your approach to match the complexity of problems, using appropriate thinking tools for thorough analysis when needed.
 
@@ -80,3 +81,4 @@ Follow these steps for each interaction:
   * Synthesize multiple sources when appropriate
   * Present balanced perspectives on complex topics
   * Properly cite all sources using appropriate formats
+```
