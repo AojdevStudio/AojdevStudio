@@ -13,10 +13,10 @@ This protocol transforms systematic research by integrating advanced tools into 
 Purpose: Creates a persistent memory structure that captures entities, relations, and findings
 Key Operations:
 
-Entity creation for major themes and concepts
-Observation storage for findings and evidence
-Relation building to map conceptual connections
-Contradiction tracking to document conflicts
+- Entity creation for major themes and concepts
+- Observation storage for findings and evidence
+- Relation building to map conceptual connections
+- Contradiction tracking to document conflicts
 
 
 ## Implementation: Updated after each analysis step to maintain comprehensive research state
@@ -26,13 +26,13 @@ Contradiction tracking to document conflicts
 Purpose: Provides the analytical engine for processing information
 Structured Format:
 
-OBSERVATION: Raw facts from sources
-ANALYSIS: Interpretation of significance
-CONNECTION: Links to existing knowledge
-QUESTION: Uncertainties requiring investigation
-INSIGHT: New understanding developed
-CONTRADICTION: Conflicts with existing knowledge
-ACTION: Next research steps identified
+- OBSERVATION: Raw facts from sources
+- ANALYSIS: Interpretation of significance
+- CONNECTION: Links to existing knowledge
+- QUESTION: Uncertainties requiring investigation
+- INSIGHT: New understanding developed
+- CONTRADICTION: Conflicts with existing knowledge
+- ACTION: Next research steps identified
 
 
 ## Standards: Minimum 5 substantial thoughts per cycle with explicit source evaluation
@@ -42,9 +42,9 @@ ACTION: Next research steps identified
 Purpose: Gathers information at appropriate depth levels
 Implementations:
 
-Brave Search: Initial landscape exploration
-Tavily Search: Deep academic investigation
-Tavily News: Recent developments (when relevant)
+- Brave Search: Initial landscape exploration
+- Tavily Search: Deep academic investigation
+- Tavily News: Recent developments (when relevant)
 
 
 ## Integration: Findings from each search feed directly into Think tool analysis
@@ -52,41 +52,41 @@ Tavily News: Recent developments (when relevant)
 # 4. Analytical Processing Cycle
 
 Purpose: Ensures systematic progression through research stages
-Standard Sequence:
 
-Search for information
-Think tool analysis of findings
-Knowledge Graph update with new insights
-Identification of gaps and contradictions
-Targeted search for deeper understanding
-Integration of new insights
-Cross-reference verification
+Standard Sequence:
+- Search for information
+- Think tool analysis of findings
+- Knowledge Graph update with new insights
+- Identification of gaps and contradictions
+- Targeted search for deeper understanding
+- Integration of new insights
+- Cross-reference verification
 
 
 
 # 5. Research Cycle Structure
 
 Purpose: Ensures thorough investigation of each research theme
-Phases:
 
-Initial Landscape Analysis: Broad context and pattern identification
-Deep Investigation: Focused exploration of specific aspects
-Quantitative Analysis: Processing of numerical data when available
-Cross-Theme Synthesis: Connection of insights across research areas
+Phases:
+- Initial Landscape Analysis: Broad context and pattern identification
+- Deep Investigation: Focused exploration of specific aspects
+- Quantitative Analysis: Processing of numerical data when available
+- Cross-Theme Synthesis: Connection of insights across research areas
 
 
 
 # 6. Quality Standards Framework
 
 Purpose: Maintains rigor and reliability
-Requirements:
 
-Multiple sources per claim
-Explicit source evaluation
-Documentation of contradictions
-Analysis of limitations
-Evidence trails for conclusions
-Consideration of alternative interpretations
+Requirements:
+- Multiple sources per claim
+- Explicit source evaluation
+- Documentation of contradictions
+- Analysis of limitations
+- Evidence trails for conclusions
+- Consideration of alternative interpretations
 
 
 
