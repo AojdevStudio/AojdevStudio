@@ -1,7 +1,3 @@
-<!-- === WATCHER HEADER START === -->
-<!-- File: prompt-library/gitflow-setup.xml -->
-<!-- Managed by file watcher -->
-<!-- === WATCHER HEADER END === -->
 <prompts>
   <prompt id="gitflow-setup">
     <description>Initialize the complete Git Flow branch structure.</description>

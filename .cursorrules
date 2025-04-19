@@ -126,7 +126,6 @@
 # │       ├── cursor-rules.md
 # │       └── logo-use.md
 # ├── prompt-library
-# │   ├── gitflow-auto-commit.xml
 # │   ├── gitflow-create-feature.xml
 # │   ├── gitflow-promote-to-main.xml
 # │   ├── gitflow-setup.xml
