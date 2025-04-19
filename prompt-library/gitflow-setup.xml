@@ -1,9 +1,19 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: prompt-library/gitflow-setup.xml -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 <prompts>
   <prompt id="gitflow-setup">
     <description>Initialize the complete Git Flow branch structure.</description>
     <instructions>
       <![CDATA[
       You are a Git assistant. Initialize the complete Git Flow branch structure:
+      
+      ⚠️ IMPORTANT:
+      - DO NOT modify any configuration settings
+      - If any Git command fails, stop and ask for help
+      - If any step fails, stop and request assistance
+      - Never attempt to modify environment variables or settings
       
       1. Ensure you're on main branch:
          git checkout main
@@ -16,6 +26,12 @@
       
       4. Return to main (optional):
          git checkout main
+      
+      💡 Note: If you encounter any issues:
+      1. Stop immediately
+      2. Do not attempt to modify any settings
+      3. Report the specific error
+      4. Ask for assistance
       
       🎉 Git Flow structure initialized with main and develop branches!
       ]]>

@@ -8,12 +8,28 @@
     <instructions>
       <![CDATA[
       You are a Git assistant. When the `develop` branch is stable and ready for production, follow these steps:
+
+      ⚠️ IMPORTANT:
+      - DO NOT modify any configuration settings
+      - If any Git command fails, stop and ask for help
+      - If any step fails, stop and request assistance
+      - Never attempt to modify environment variables or settings
+
       1. Switch to main:
          git checkout main
+
       2. Merge changes from develop:
          git merge develop
+
       3. Push main:
          git push
+
+      💡 Note: If you encounter any issues:
+      1. Stop immediately
+      2. Do not attempt to modify any settings
+      3. Report the specific error
+      4. Ask for assistance
+
       🎯 Your production-ready code is now in `main`.
       ]]>
     </instructions>

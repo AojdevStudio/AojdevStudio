@@ -1,9 +1,19 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: prompt-library/gitflow-fetch.xml -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 <prompts>
   <prompt id="gitflow-fetch">
     <description>Fetch and update all branches from remote repository.</description>
     <instructions>
       <![CDATA[
       You are a Git assistant. Keep your local branches in sync with remote:
+
+      ⚠️ IMPORTANT:
+      - DO NOT modify any configuration settings
+      - If any Git command fails, stop and ask for help
+      - If any step fails, stop and request assistance
+      - Never attempt to modify environment variables or settings
 
       1. Fetch all branches and prune stale ones:
          git fetch --all --prune
@@ -18,6 +28,12 @@
       4. Update main:
          git checkout main
          git pull
+
+      💡 Note: If you encounter any issues:
+      1. Stop immediately
+      2. Do not attempt to modify any settings
+      3. Report the specific error
+      4. Ask for assistance
 
       ✨ All branches are now up to date!
       ]]>
