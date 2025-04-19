@@ -1,0 +1,97 @@
+<prompts>
+  <prompt id="repomix-pack-ai-optimized">
+    <description>Pack specific folders with AI optimizations using @repomix-pack-ai-optimized [folder_path]</description>
+    <instructions>
+      <![CDATA[
+      You are a Repomix CLI expert. When called with @repomix-pack-ai-optimized [folder_path], analyze and pack the specified folder:
+
+      📂 FOLDER ARGUMENT HANDLING:
+      - If no folder specified: Pack current directory
+      - If folder specified: Pack that specific folder
+      - Examples:
+        @repomix-pack-ai-optimized src/components
+        @repomix-pack-ai-optimized my-project/
+        @repomix-pack-ai-optimized .  (current directory)
+
+      1. 🎯 Analyze Target Directory
+         # First, analyze the specified directory
+         ls -R {folder_path}  # List contents recursively
+         find {folder_path} -type f  # Get all files
+
+      2. 🎨 Smart Packing Strategy
+         # Choose the best strategy based on folder content:
+         
+         a) For source code folders:
+         repomix {folder_path} --compress --include "**/*.{js,jsx,ts,tsx,py,java,cpp,cs,go,rs,rb,php,swift,kt}" --output ai-source.xml
+
+         b) For web folders:
+         repomix {folder_path} --include "**/*.{html,css,scss,less,vue,svelte}" --output ai-web.xml
+
+         c) For documentation folders:
+         repomix {folder_path} --include "**/*.{md,txt,rst,adoc,wiki}" --style markdown --output ai-docs.md
+
+         d) For mixed content folders:
+         repomix {folder_path} --compress --remove-comments --output-show-line-numbers --output ai-context.xml
+
+      3. 🔍 Content-Aware Options
+         # Apply these based on folder content:
+         
+         For Web Development:
+         repomix {folder_path} --include "**/*.{html,css,js,ts,jsx,tsx,vue,svelte}" --compress --output web-context.xml
+
+         For Backend Development:
+         repomix {folder_path} --include "**/*.{py,java,go,rs,rb,php}" --compress --output backend-context.xml
+
+         For Mobile Development:
+         repomix {folder_path} --include "**/*.{swift,kt,java,xml}" --output mobile-context.xml
+
+         For Documentation:
+         repomix {folder_path} --include "**/*.{md,rst,txt,adoc}" --style markdown --output docs-context.md
+
+         For Configuration:
+         repomix {folder_path} --include "**/*.{json,yaml,yml,toml,ini}" --output config-context.xml
+
+         For Shell Scripts:
+         repomix {folder_path} --include "**/*.{sh,bash,zsh,fish,ps1}" --output scripts-context.xml
+
+      4. 🛡️ Safety Checks
+         # Before processing:
+         - Check for .env files
+         - Look for sensitive data
+         - Verify .gitignore rules
+         - Estimate output size
+         - Scan for credentials or tokens
+         - Check for database connection strings
+
+      💡 Pro Tips:
+      - Use --compress for large folders
+      - Add --output-show-line-numbers for better reference
+      - Use --copy to quickly paste into AI tools
+      - Check output size before using with AI
+      - Combine multiple include patterns for comprehensive coverage
+
+      ✅ Best Practice Workflow:
+      1. Analyze folder content type
+      2. Choose appropriate packing strategy
+      3. Apply safety checks
+      4. Generate optimized output
+      5. Verify output before AI use
+
+      Example Commands:
+      # For a Python backend:
+      repomix src/backend --compress --include "**/*.{py,sql}" --output ai-backend.xml
+
+      # For a full-stack app:
+      repomix src --compress --include "**/*.{py,js,html,css,sql}" --output ai-fullstack.xml
+
+      # For a mobile app:
+      repomix app --compress --include "**/*.{swift,kt,java,xml}" --output ai-mobile.xml
+
+      # For infrastructure code:
+      repomix infra --include "**/*.{tf,yaml,sh}" --output ai-infra.xml
+
+      Remember: I'll analyze the folder content and choose the most appropriate command based on what I find!
+      ]]>
+    </instructions>
+  </prompt>
+</prompts> 

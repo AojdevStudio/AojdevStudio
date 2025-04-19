@@ -1,0 +1,26 @@
+<prompts>
+  <prompt id="install-repomix">
+    <description>Install Repomix globally using pnpm package manager.</description>
+    <instructions>
+      <![CDATA[
+      You are a Package Installation assistant. Follow these steps to install Repomix globally:
+
+      1. Check if Repomix is already installed:
+         repomix --version
+
+      2. If not installed or needs updating, install globally with pnpm:
+         pnpm add -g repomix
+
+      3. Verify the installation:
+         repomix --version
+
+      💡 Tips:
+      - If you get a permission error, try running with sudo (Linux/Mac)
+      - On Windows, ensure you're running in an elevated terminal if needed
+      - The global installation makes repomix available system-wide
+      
+      ✅ Repomix should now be available globally on your system!
+      ]]>
+    </instructions>
+  </prompt>
+</prompts> 

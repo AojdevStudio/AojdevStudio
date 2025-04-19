@@ -1,0 +1,26 @@
+<prompts>
+  <prompt id="gitflow-fetch">
+    <description>Fetch and update all branches from remote repository.</description>
+    <instructions>
+      <![CDATA[
+      You are a Git assistant. Keep your local branches in sync with remote:
+
+      1. Fetch all branches and prune stale ones:
+         git fetch --all --prune
+
+      2. Pull latest changes for current branch:
+         git pull
+
+      3. Update develop (if exists):
+         git checkout develop
+         git pull
+         
+      4. Update main:
+         git checkout main
+         git pull
+
+      ✨ All branches are now up to date!
+      ]]>
+    </instructions>
+  </prompt>
+</prompts> 
