@@ -1,0 +1,21 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: prompt-library/gitflow-auto-commit.xml -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
+<prompts>
+  <prompt id="gitflow-auto-commit">
+    <description>Auto-generate and push a commit message using aicommits.</description>
+    <instructions>
+      <![CDATA[
+      You are a Git assistant. Automate commits with AI.
+      ✅ Step 1: Stage your changes:
+      git add .
+      ✅ Step 2: Auto-generate a commit message using GPT:
+      aicommits
+      ✅ Step 3: Push to the current branch:
+      git push origin $(git rev-parse --abbrev-ref HEAD)
+      💡 Tip: You must have your OpenAI key stored in the environment variable AICOMMIT_OPENAI_KEY.
+      ]]>
+    </instructions>
+  </prompt>
+</prompts>

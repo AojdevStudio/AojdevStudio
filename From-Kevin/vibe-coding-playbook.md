@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: From-Kevin/vibe-coding-playbook.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 
 
 

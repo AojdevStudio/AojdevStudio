@@ -1,6 +1,23 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: Claude/consulting-framework/consulting.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
+# KC Ventures Consulting Framework: Claude-Based Business Analysis System
 
+## Overview
+This framework is part of KC Ventures' consulting methodology, designed to streamline the process of business analysis and solution development. It represents a systematic approach to transforming client survey responses into actionable business insights through Claude-powered automation.
 
-```markdown
+### Framework Purpose
+This document serves as a guide for consultants looking to create a Claude project for business analysis. It explains how to manage client surveys effectively by integrating them into the Claude project. When a consultant obtains a completed client survey, they can feed that data into the Claude project, which will then facilitate the creation of valuable tools and insights to assist the client. This AI-driven approach ensures consistency, thoroughness, and efficiency in the consulting process.
+
+### How to Use This Framework
+1. Have clients complete the business survey
+2. Input survey responses into the Claude project
+3. Follow the generated instructions to create customized business solutions
+4. Use the output to guide client consultations and implementations
+
+---
+
 # Instructions for Transforming Client Survey into Business Scope Document
 
 ## Purpose and Overview

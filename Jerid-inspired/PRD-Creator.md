@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: Jerid-inspired/PRD-Creator.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 # PRD Creation Assistant with MCP Integration
 
 A comprehensive Product Requirements Document (PRD) creator that leverages MCP servers and Claude's thinking capabilities to help you plan and document your products effectively.

@@ -1,0 +1,138 @@
+# === WATCHER HEADER START ===
+# File: .cursorrules
+# Managed by file watcher
+# Project Tree Structure:
+# 
+# NOTE TO ASSISTANT: Remember to add new files to .watchlist to receive headers.
+#       Files not in .watchlist won't receive headers, even if visible in this tree.
+# 
+# NOTE TO ASSISTANT: If you notice directories that don't add value to the context
+#       (like build outputs, cache, etc), suggest adding them to .donotwatchlist
+#       to keep the tree structure focused and clean.
+# 
+# ├── .cursor
+# │   └── rules
+# │       ├── biome-config.mdc  # unwatched
+# │       ├── commit-messages.mdc  # unwatched
+# │       ├── db-algorithm-rules.mdc  # unwatched
+# │       ├── licensing.mdc  # unwatched
+# │       ├── package-managers.mdc  # unwatched
+# │       └── project-structure.mdc  # unwatched
+# ├── .cursorrules
+# ├── .donotwatchlist
+# ├── .venv
+# │   ├── .gitignore  # unwatched
+# │   ├── .lock  # unwatched
+# │   ├── CACHEDIR.TAG  # unwatched
+# │   ├── bin
+# │   │   ├── activate  # unwatched
+# │   │   ├── activate.bat  # unwatched
+# │   │   ├── activate.csh  # unwatched
+# │   │   ├── activate.fish  # unwatched
+# │   │   ├── activate.nu  # unwatched
+# │   │   ├── activate.ps1  # unwatched
+# │   │   ├── activate_this.py  # unwatched
+# │   │   ├── deactivate.bat  # unwatched
+# │   │   ├── pydoc.bat  # unwatched
+# │   │   ├── python  # unwatched
+# │   │   ├── python3  # unwatched
+# │   │   ├── python3.13  # unwatched
+# │   │   └── watchmedo  # unwatched
+# │   ├── lib
+# │   │   └── python3.13
+# │   │       └── site-packages
+# │   │           ├── _virtualenv.pth  # unwatched
+# │   │           ├── _virtualenv.py  # unwatched
+# │   │           ├── _watchdog_fsevents.cpython-313-darwin.so  # unwatched
+# │   │           ├── watchdog
+# │   │           │   ├── __init__.py  # unwatched
+# │   │           │   ├── events.py  # unwatched
+# │   │           │   ├── observers
+# │   │           │   │   ├── __init__.py  # unwatched
+# │   │           │   │   ├── api.py  # unwatched
+# │   │           │   │   ├── fsevents.py  # unwatched
+# │   │           │   │   ├── fsevents2.py  # unwatched
+# │   │           │   │   ├── inotify.py  # unwatched
+# │   │           │   │   ├── inotify_buffer.py  # unwatched
+# │   │           │   │   ├── inotify_c.py  # unwatched
+# │   │           │   │   ├── kqueue.py  # unwatched
+# │   │           │   │   ├── polling.py  # unwatched
+# │   │           │   │   ├── read_directory_changes.py  # unwatched
+# │   │           │   │   └── winapi.py  # unwatched
+# │   │           │   ├── py.typed  # unwatched
+# │   │           │   ├── tricks
+# │   │           │   │   └── __init__.py  # unwatched
+# │   │           │   ├── utils
+# │   │           │   │   ├── __init__.py  # unwatched
+# │   │           │   │   ├── bricks.py  # unwatched
+# │   │           │   │   ├── delayed_queue.py  # unwatched
+# │   │           │   │   ├── dirsnapshot.py  # unwatched
+# │   │           │   │   ├── echo.py  # unwatched
+# │   │           │   │   ├── event_debouncer.py  # unwatched
+# │   │           │   │   ├── patterns.py  # unwatched
+# │   │           │   │   ├── platform.py  # unwatched
+# │   │           │   │   └── process_watcher.py  # unwatched
+# │   │           │   ├── version.py  # unwatched
+# │   │           │   └── watchmedo.py  # unwatched
+# │   │           └── watchdog-6.0.0.dist-info
+# │   │               ├── AUTHORS  # unwatched
+# │   │               ├── COPYING  # unwatched
+# │   │               ├── INSTALLER  # unwatched
+# │   │               ├── LICENSE  # unwatched
+# │   │               ├── METADATA  # unwatched
+# │   │               ├── RECORD  # unwatched
+# │   │               ├── REQUESTED  # unwatched
+# │   │               ├── WHEEL  # unwatched
+# │   │               ├── entry_points.txt  # unwatched
+# │   │               └── top_level.txt  # unwatched
+# │   └── pyvenv.cfg  # unwatched
+# ├── .watchlist
+# ├── Claude
+# │   ├── Claude-desktop-preferences.md
+# │   ├── Dental
+# │   │   └── fee-scheduler-formatter.md
+# │   ├── consulting-framework
+# │   │   └── consulting.md
+# │   └── project-instructions
+# │       └── dev-starter-kit.md
+# ├── From-Kevin
+# │   └── vibe-coding-playbook.md
+# ├── Jerid-inspired
+# │   ├── Code-repo-explorer.md
+# │   ├── Deep-thinker.md
+# │   ├── PRD-Creator.md
+# │   └── mcp-server-security.md
+# ├── README.md
+# ├── google-app-scripts
+# │   ├── logo.svg
+# │   └── overview.md
+# ├── myrules
+# │   ├── codebased-rules
+# │   │   ├── deno
+# │   │   │   └── deno-integration  # unwatched
+# │   │   ├── git
+# │   │   ├── python
+# │   │   │   ├── containerization.mdc
+# │   │   │   ├── pyhton-general-rules.mdc
+# │   │   │   ├── setup.json
+# │   │   │   └── watchful-headers.md
+# │   │   ├── testing
+# │   │   │   └── testing-rules.mdc
+# │   │   └── typescript
+# │   │       ├── nestjs-best-practices.mdc
+# │   │       └── typescript-code-convention.mdc
+# │   └── general-rules
+# │       ├── cursor-memories.md
+# │       ├── cursor-rules.md
+# │       └── logo-use.md
+# ├── prompt-library
+# │   ├── gitflow-auto-commit.xml
+# │   ├── gitflow-create-feature.xml
+# │   ├── gitflow-promote-to-main.xml
+# │   ├── gitflow-setup.xml
+# │   ├── gitflow-start-develop.xml
+# │   └── gitflow-tag-main-release.xml
+# └── watcher.py  # unwatched
+# 
+# === WATCHER HEADER END ===
+# This file will be automatically updated with the project tree structure

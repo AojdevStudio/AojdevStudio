@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: myrules/general-rules/cursor-rules.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 This repository contains boilerplate rule templates for setting up an optimized AI development workflow in Cursor, it was inspired by JeredBlu's YouTube video [Combining Project-Level MCP Servers & Nested Cursor Rules to 10x Ai Dev Workflow](https://youtu.be/41xaJsJ8GVc).
 
 ### 1. MCP Tool Usage (mcp-tool-usage.mdc)

@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: README.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 - 👋 Hi, I’m @AojdevStudio
 - 👀 I’m interested in build saas applications that truly make a difference in the productivity of small businesses. 
 - 🌱 I’m currently learning how to use cursor, nextJS frameworks, proxmox, and many more oddly non-related and related technical things

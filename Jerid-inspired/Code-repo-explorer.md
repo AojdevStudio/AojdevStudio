@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: Jerid-inspired/Code-repo-explorer.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 ## Desktop Commander Hack
 
 Custom instructions used to bypass all AI-code editor pricing non-sense. Utilize this MCP server to explore whole repos, and even make changes using just claude desktop. 

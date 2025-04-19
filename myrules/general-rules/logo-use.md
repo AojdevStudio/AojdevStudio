@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: myrules/general-rules/logo-use.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 ---
 description:
 globs:

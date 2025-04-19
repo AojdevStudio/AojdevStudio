@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: Jerid-inspired/Deep-thinker.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 ## Enhanced Deep Research Protocol
 
 Another @JeredBlu [https://github.com/JeredBlu/) inspiration these custom instructions create a comprehensive research workflow by combining Tavily MCP, Brave Search, Anthropic's Think Tool MCP, Knowledge Graph, native tools with claude such as analysis tool and artifacts. 

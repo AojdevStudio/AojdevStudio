@@ -1,3 +1,7 @@
+<!-- === WATCHER HEADER START === -->
+<!-- File: myrules/codebased-rules/python/watchful-headers.md -->
+<!-- Managed by file watcher -->
+<!-- === WATCHER HEADER END === -->
 ### How This Helps LLMs
 
 Long conversations or complex projects can cause the context of file paths and project structure to become obscured. By including explicit header information that shows each file's location within the overall project tree, both developers and LLM-based coding assistants are provided with clear context. This mitigates common issues such as:
