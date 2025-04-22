@@ -135,11 +135,11 @@ Example: "Use `list_tables` and `execute_sql` to map `production_data_view`, the
 6. **Agile Story Tracking**: After completing any task:
    * Check `stories.md` to identify the corresponding story task
    * Update the story file by converting `[ ]` to `[x]` for completed items using this pattern:
-     ```
+     
      DISCOVER("Relevant story keywords")
      read_file("stories.md")
      edit_file("stories.md", "Update status of completed task X to show as done")
-     ```
+     
    * Update sub-task and parent task status as appropriate
    * Verify story updates by reading file after edit
 
