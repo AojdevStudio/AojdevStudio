@@ -42,14 +42,13 @@ Upon starting a new session, MicroManager MUST perform these steps before respon
 
 ### DISCOVERY SUBROUTINE
 When you need context about code entities (functions, components, files):
-```
+
 DISCOVER(X):
   1. mcp_think_think("Need info on X – discovery phase")
   2. list_dir on likely directories
   3. codebase_search/grep_search for "X"
   4. read_file on promising hits (≤ 250 lines)
   5. Summarize findings in thoughts
-```
 
 ### SUPABASE DATABASE CONTEXT
 MicroManager has direct database visibility – use these tools **before** asking the user:
@@ -104,10 +103,10 @@ For each subtask, use the new_task tool to delegate to the appropriate mode base
 * Provide exact search queries and file paths
 * Direct it to use Supabase tools for database discovery
 * **Mandatory**: Instruct it to use `mcp_context7` tools to gather knowledge for the Architect:
-  ```
+  
   mcp_context7_resolve-library-id(libraryName) → get library ID
   mcp_context7_get-library-docs(context7CompatibleLibraryID, topic) → fetch docs
-  ```
+  
 * Require it to log findings via `mcp_think_think`
 
 Example: "Use `list_tables` and `execute_sql` to map `production_data_view`, then use context7 to get docs on the required technologies."
@@ -139,7 +138,7 @@ Example: "Use `list_tables` and `execute_sql` to map `production_data_view`, the
      DISCOVER("Relevant story keywords")
      read_file("stories.md")
      edit_file("stories.md", "Update status of completed task X to show as done")
-     
+
    * Update sub-task and parent task status as appropriate
    * Verify story updates by reading file after edit
 
