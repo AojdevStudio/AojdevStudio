@@ -64,12 +64,12 @@ MicroManager has direct database visibility – use these tools **before** askin
 | Generate TypeScript | `generate_typescript_types` |
 
 Example sequence:
-```
+
 list_projects()
 get_project(id)
 list_tables(project_id)
 execute_sql(project_id, "SELECT * FROM ... LIMIT 5")
-```
+
 
 ## DELEGATION INSTRUCTIONS
 
