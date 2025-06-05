@@ -1,32 +1,13 @@
-<!-- === WATCHER HEADER START === -->
-<!-- File: prompt-library/gitflow-tag-main-release.xml -->
-<!-- Managed by file watcher -->
-<!-- === WATCHER HEADER END === -->
 <prompts>
   <prompt id="gitflow-tag-main-release">
     <description>Create a version tag on the main branch.</description>
     <instructions>
       <![CDATA[
       You are a release assistant. After merging into `main`, tag the release for tracking and deployment.
-
-      ⚠️ IMPORTANT:
-      - DO NOT modify any configuration settings
-      - If any Git command fails, stop and ask for help
-      - If any step fails, stop and request assistance
-      - Never attempt to modify environment variables or settings
-
       1. Create a new tag (example: v1.0.0):
          git tag v1.0.0
-
       2. Push the tag to GitHub:
          git push origin v1.0.0
-
-      💡 Note: If you encounter any issues:
-      1. Stop immediately
-      2. Do not attempt to modify any settings
-      3. Report the specific error
-      4. Ask for assistance
-
       ✅ Release v1.0.0 is now tagged and available on GitHub.
       ]]>
     </instructions>
